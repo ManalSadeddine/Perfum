@@ -1,0 +1,104 @@
+*{                  
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rosybrown;
+}
+img{                /* C'est obligatoir d'ajouter cet element 'img' dans le code */
+    width: 100%;
+    height: auto;
+    margin-bottom: -5px;
+}
+.first{
+    text-transform: uppercase;
+    color: hsl(158, 36%, 37%);
+    letter-spacing: 8px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card{
+    width: 90%;
+    background-color: hsl(0, 0%, 100%);
+    margin: 20px auto 20px auto;
+    border-radius: 2%;
+    position: relative;
+    overflow: hidden;
+}
+.img-container{
+    display: inline-block;
+    width: 100%;
+}
+.mob{
+    visibility: visible;
+    display: block;}
+.desk{
+    visibility: hidden;
+    display: none;
+}
+.text-container{
+    width: 90%;
+    height: 400px;
+    padding: 30px;
+}
+.description{
+    text-transform: none;
+    font-size: 16px;
+    margin: 30px auto 30px auto;
+    color: hsl(158, 36%, 37%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.second{
+    color: black;
+    font-size: 40px;
+    line-height: 90%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.price{
+    display: flex;
+    justify-content: left;
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+.price-card1{
+    color: green;
+    font-size: 30px;
+    text-transform: lowercase;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    
+}
+.price-card2{
+    color: hsl(158, 36%, 37%);
+    font-size: 18px;
+    text-decoration: line-through;
+}
+button{
+    display: inline-block;
+    background-color: hsl(158, 36%, 37%);
+    width:  85%;
+    position: absolute;
+    margin-top: 20px;
+    border: none;
+    height: 45px;
+    padding: 15px;
+    border-radius: 8px;
+}
+.buttonimg{
+    margin-right: 3px;
+    width: 12px;
+    height: 14px;
+}
+.buttontext{
+    display: inline-block;
+    color: hsl(0, 0%, 100%);
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: none;
+    font-weight: 600;
+    vertical-align: 2px;
+    font-family: 'Fraunces';
+}

@@ -1,0 +1,32 @@
+@media (min-width: 820px) {
+    .card{
+        background-color: hsl(0, 0%, 100%);
+        width: 50%;
+        margin: 20px auto 20px auto;
+        border-radius: 2%;
+        position: relative;
+        overflow: hidden;
+    }
+    .img-container{
+        display: inline-block;
+        width: 50%; 
+    }
+    .text-container{
+        width: 275px;
+        height: 400px;
+        float: right;
+        padding: 30px;
+    }
+    .mob{
+        visibility: hidden;
+        display: none;
+    }
+    .desk{
+        visibility: visible;
+        display: block;
+    }
+    button{
+        width: 40%;
+    }
+      
+}
